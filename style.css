@@ -8,13 +8,21 @@ body{
   flex-direction: column;
   margin: 0;
 }
-header{
+header, footer{
   display: flex;
+  flex-direction: column;
+  background-color:#1F2937;
+  
+}
+nav{
+  display: flex;
+  flex-direction: row ;
   justify-content: space-between;
   padding: 5px 50px 0px;
   flex-wrap: nowrap;
   background-color: transparent;
 }
+
 
 ul{
   display: flex;
@@ -57,4 +65,62 @@ div.dv_2{
   margin: 0 0 20px;
   color: #F9FAF8;
   font-weight: 1000;
+}
+
+section.s_2{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px 100px 20px;
+  padding: 20px 100px 20px;
+  justify-content: space-evenly;
+}
+div.d_2{
+  margin: 40px 10px 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.s_2 img{
+  width: 200px;
+  height: auto;
+  border: 3px solid blue;
+  border-radius: 4px;
+}
+
+.p_2 {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.s_3{
+  background-color: #E5E7EB;
+  padding: 100px 500px 100px;
+}
+
+div.d_4{
+  background-color: #3882F6;
+  border-radius: 7px;
+  margin: 150px 400px 150px;
+  padding: 25px 100px 25px;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.d_4 button{
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 10px 10px;
+  border-radius: 3px;
+  color: white;
+  width: 100px;
+  height: 40px;
+
 }
